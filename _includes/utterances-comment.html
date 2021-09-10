@@ -1,13 +1,8 @@
-<!-- _includes/utterances-comment.html -->
-{% if site.utterance.repo and site.utterance.issue-term  %}
-<!--  # you can going to https://jekyllrb.com/docs/variables/#page-variables find more page variables as a label. -->
 <script src="https://utteranc.es/client.js"
-        repo="{{site.utterance.repo }}"
-        issue-term="{{ site.utterance.issue-term }}"
-        theme="{{ site.utterance.theme}}"
-        label="{{ page.url }}"
+        repo="lmaitreya/bubblegum"
+        issue-term="pathname"
+        label="comments"
+        theme="github-light"
         crossorigin="anonymous"
         async>
 </script>
-
-{% endif %}
